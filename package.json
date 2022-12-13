@@ -1,6 +1,6 @@
 {
-  "name": "connected-react-router",
-  "version": "6.9.3",
+  "name": "@smileeio/connected-react-router",
+  "version": "6.9.3-smileeio",
   "description": "A Redux binding for React Router v4 and v5",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -33,10 +33,10 @@
   },
   "peerDependencies": {
     "history": "^4.7.2",
-    "react": "^16.4.0 || ^17.0.0",
-    "react-redux": "^6.0.0 || ^7.1.0",
-    "react-router": "^4.3.1 || ^5.0.0",
-    "redux": "^3.6.0 || ^4.0.0"
+    "react": "^18.0.0",
+    "react-redux": "^8.0.0",
+    "react-router": "^6.0.0",
+    "redux": "^4.0.0"
   },
   "optionalDependencies": {
     "immutable": "^3.8.1 || ^4.0.0",
@@ -67,10 +67,10 @@
     "immutable": "^4.0.0",
     "jest": "^24.3.1",
     "raf": "^3.4.0",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "react-redux": "^6.0.0 || ^7.1.0",
-    "react-router": "^4.3.1 || ^5.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-redux": "^8.0.0",
+    "react-router": "^6.0.0",
     "react-test-renderer": "^16.4.0",
     "redux": "^4.0.0",
     "redux-devtools": "^3.4.0",
@@ -84,9 +84,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/supasate/connected-react-router.git"
-  },
-  "bugs": {
-    "url": "https://github.com/supasate/connected-react-router/issues"
+    "url": "https://github.com/smileeio/connected-react-router.git"
   }
 }
